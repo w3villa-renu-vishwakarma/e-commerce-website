@@ -1,0 +1,293 @@
+@media screen and (max-width: 1500px) {
+    .left-right-margin {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+}
+
+@media screen and (max-width: 1100px) {
+    .left-right-margin {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width: 514px) {
+    .left-right-margin {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width: 1274px) {
+
+    .header-section1,
+    .header-section2,
+    .header-section3 {
+        display: none;
+    }
+
+    header {
+        display: none;
+    }
+}
+
+/* mobile navbar */
+@media screen and (max-width: 1274px) {
+    .mobile-navbar {
+      padding-top: 5px;
+      padding-bottom: 5px;
+      display: flex;
+      justify-content: space-between;
+      background-color: #0d51d6;
+      position: sticky;
+      position: -webkit-sticky;
+      top: 0;
+      z-index: 3;
+    }
+    .mobile-navbar .login-wishlist-container{
+        display: flex;
+    }
+     .mobile-navbar
+      .country-language-currency-menu-container{
+        display: flex;
+      }
+  
+    .mobile-navbar p,
+    .mobile-navbar i,
+    .mobile-navbar div {
+      opacity: 100% !important;
+      color: white !important;
+    }
+  
+    .mobile-navbar .login-wishlist-container a p {
+      opacity: 100% !important;
+      color: white !important;
+    }
+  
+    .top-navbar-container .country-language-currency-menu-container {
+      display: none;
+    }  
+  }
+  /*mobile bottom navbar  */
+@media screen and (max-width: 1274px) {
+    .mobile-bottom-navbar {
+      padding-top: 20px;
+      background-color: lightgray;
+      justify-content: space-between;
+      display: flex;
+    }
+  
+    .menu-container {
+      display: flex;
+      justify-content: space-between;
+      column-gap: 4px;
+      margin-top: 5px;
+    }
+  
+    .mobile-bottom-navbar .searchbar-container {
+      width: 10vw;
+    }
+  
+    .mobile-bottom-navbar .searchbar-container .search-icon {
+      background-color: lightgray;
+      height: 60px;
+      margin-left: 20px;
+    }
+  
+    .mobile-bottom-navbar .searchbar-container .search-icon i {
+      color: black;
+      font-size: 25px;
+    }
+  
+    .mobile-bottom-navbar .brand-logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 34px;
+      margin-right: 4px;
+    }
+  
+    .mobile-bottom-navbar .brand-logo h1 a {
+        font-family: "Roboto", sans-serif !important;
+        font-size: 45px;
+    }
+  
+    .mobile-bottom-navbar .left-menu-icon-container .hamburgur {
+      position: relative;
+      top: 15px;
+      width: 30px;
+      padding: auto;
+    }
+  
+    .mobile-bottom-navbar .left-menu-icon-container .hamburgur i {
+      font-size: 30px;
+    }
+    .mobile-bottom-navbar .drop-down-menu {
+      top: 57%;
+    }
+  }
+  
+  @media screen and (max-width: 465px) {
+    .mobile-bottom-navbar .brand-logo {
+      font-size: 23px;
+    }
+    .mobile-bottom-navbar .cart-icon {
+      top: initial;
+    }
+    .menu-container {
+      margin-top: initial;
+    }
+    .mobile-bottom-navbar .cart-icon i {
+      position: relative;
+      top: initial;
+    }
+    .mobile-bottom-navbar .drop-down-menu {
+      top: 80%;
+    }
+  }
+/* *************SEction 1 ************* */
+@media screen and (max-width: 800px) {
+    .section1 .text-over-image h1 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .section1.text-over-image h1 {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 1274px) {
+    .section1 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .side-card-container {
+        flex-direction: row;
+        column-gap: 10px;
+        width: 100%;
+        padding-bottom: 20px;
+        height: 230px;
+    }
+
+    .section1 .carousel {
+        width: 100%;
+    }
+
+    .section1 .carousel img {
+        border-radius: 8px;
+        height: 45%;
+        object-fit: cover;
+    }
+
+    .section1 .text-over-image {
+        position: absolute;
+        width: 25%;
+        top: 17%;
+        left: 2%;
+    }
+
+    .section1 .text-over-image input {
+        background-color: #0d51d6;
+        color: white;
+        width: 45px;
+        height: 15px;
+        font-size: 10px;
+        border: none;
+        border-radius: 6px;
+        margin-bottom: 10px;
+    }
+
+    .section1 .text-over-image h1 {
+        font-size: 15px;
+        max-width: 250px;
+        margin-bottom: 10px;
+    }
+
+    .section1 .text-over-image .learn-more p{
+       font-size: 15px ;
+       width: 160px;
+    }
+
+    .side-card-container .card img {
+        height: 100px;
+
+    }
+
+    .card .image img {
+        height: 50%;
+        width: 50%;
+        margin-left: 60px;
+        object-fit: contain;
+    }
+
+    .side-card-container .card {
+        position: relative;
+        height: 100%;
+        width: 100%;
+        background-color: #eef2f5;
+        display: flex;
+        margin-top: 10px ;
+    }
+
+    .text-over-card-image {
+        position: absolute;
+        top: 50%;
+        left: 5%;
+        width: 50%;
+    }
+
+    .text-over-card-image p {
+        font-size: 10px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .text-over-card-image p {
+        font-size: 20px;
+    }
+
+    .text-over-card-image h2 {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .text-over-card-image p {
+        font-size: 17px;
+    }
+
+    .text-over-card-image h2 {
+        font-size: 15px;
+    }
+}
+/* ****** SECTION 2 ************* */
+@media screen and (max-width: 1274px) {
+    .section2 {
+        height: 70vh;
+
+    }
+}
+
+/* Footer */
+@media screen and (max-width: 1844px) {
+    footer div {
+      border-right: 0;
+    }
+  }
+  
+  @media screen and (max-width: 1100px) {
+    footer {
+      justify-content: space-around;
+      column-gap: 55px;
+    }
+  
+    footer div {
+      width: 300px;
+    }
+  }

@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/style1.css">
+    <link rel="stylesheet" href="assets/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/solid.min.css"
+        integrity="sha512-yDUXOUWwbHH4ggxueDnC5vJv4tmfySpVdIcN1LksGZi8W8EVZv4uKGrQc0pVf66zS7LDhFJM7Zdeow1sw1/8Jw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"
+        integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/solid.min.js"
+        integrity="sha512-apZ8JDL5kA1iqvafDdTymV4FWUlJd8022mh46oEMMd/LokNx9uVAzhHk5gRll+JBE6h0alB2Upd3m+ZDAofbaQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@ HEADER SECTION START @@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
+    <header>
+        <!-- there are 3 header section  -->
+
+        <!-- @@@@@@@@@@@@ start of first section -->
+        <div class="header-section1 left-right-margin">
+            <!-- Home , about us , contact , FAQ -->
+            <div class="menu">
+                <div class="home">
+                    <a>
+                        <i class="fa-solid fa-house"></i>
+                        <p>Home</p>
+                    </a>
+                </div>
+                <div class="about-us">
+                    <a>
+                        <i class="fa-regular fa-star"></i>
+                        <p>About Us</p>
+                    </a>
+                </div>
+                <div class="contact">
+                    <a>
+                        <i class="fa-regular fa-envelope"></i>
+                        <p>Contact</p>
+                    </a>
+                </div>
+                <div class="dropdown">
+                    <a>
+                        <i class="fa-solid fa-question"></i>
+                        <p id="faq">FAQ</p>
+                        <i class="fa-solid fa-sort-down"></i>
+                    </a>
+                    <ul class="drop-down-menu">
+                        <li><a>1</a></li>
+                        <li><a>2</a></li>
+                        <li><a>3</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- language and currency  -->
+            <div class="language-currency">
+                <div class="language dropdown">
+                    <a>
+                        <p id="country-name "> 🇺🇸English</p>
+                        <i class="fa-solid fa-sort-down"></i>
+                    </a>
+                    <ul class="drop-down-menu">
+                        <li><a>1</a></li>
+                        <li><a>2</a></li>
+                        <li><a>3</a></li>
+                    </ul>
+                </div>
+                <div class="currency dropdown">
+                    <a>
+                        <div id="currency-logo">
+                            <i class="fa-solid fa-dollar-sign"></i>
+                        </div>
+                        <p id="currency-name">Us Dollar</p>
+                        <i class="fa-solid fa-sort-down"></i>
+                    </a>
+                    <ul class="drop-down-menu">
+                        <li><a>1</a></li>
+                        <li><a>2</a></li>
+                        <li><a>3</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- More menus and delivery -->
+            <div class="more-menu-delivery">
+                <div class="more-menu dropdown">
+                    <a>
+                        <div>
+                            <i class="fa-solid fa-user"></i>
+                            <i class="fa-solid fa-bars"></i>
+                        </div>
+                        <p id="More-enu">More Menus</p>
+                        <i class="fa-solid fa-sort-down"></i>
+                    </a>
+                    <ul class="drop-down-menu">
+                        <li><a>1</a></li>
+                        <li><a>2</a></li>
+                        <li><a>3</a></li>
+                    </ul>
+                </div>
+                <div class="delivery">
+                    <a>
+                        <i class="fa-solid fa-truck"></i>
+                        <p>Delivery</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- @@@@@@@@@@@@@@@@@@@@ end of first section -->
+
+        <!-- @@@@@@@@@@@@@@@@@@@@ start of second section -->
+        <!-- this section contain logo , search bar , login , register , compare , wishlist , cart , price -->
+        <div class="header-section2 left-right-margin">
+            <!-- 1. Brand logo -->
+
+            <div class="brand-logo">
+                <h1>JOURNAL</h1>
+            </div>
+
+            <!-- 2. Search bar -->
+
+            <div class="searchbar">
+                <div class="dropdown">
+                    <div class="all-dropdown">
+                        <a>
+                            <p id="Al">ALL</p>
+                            <i class="fa-solid fa-sort-down"></i>
+                        </a>
+                    </div>
+
+                    <ul class="drop-down-menu">
+                        <li><a>1</a></li>
+                        <li><a>2</a></li>
+                        <li><a>3</a></li>
+                        <li><a>4</a></li>
+                    </ul>
+                </div>
+                <input type="text" placeholder="Search here..." id="search" />
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <div id="list" style="position: absolute;"></div>
+
+            </div>
+
+            <!-- 3. login and other menu container -->
+
+            <div class="login-wishlist">
+                <a class="trigger">
+                    <i class="fa-solid fa-user"></i>
+                    <p>Login</p>
+                </a>
+                <a class="trigger2">
+                    <i class="fa-solid fa-pen"></i>
+                    <p>Register</p>
+                </a>
+                <a>
+                    <i class="fa-regular fa-heart"></i>
+                    <p>Wishlist</p>
+                </a>
+                <a>
+                    <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                    <p>Compare</p>
+                </a>
+            </div>
+
+
+            <!-- 4.cart and price detils -->
+
+            <div class="cart-price">
+                <div id="item-counter">0</div>
+                <div>
+                    <p>&nbsp;item(s) -</p>
+                </div>
+                <div id="currency-name">$</div>
+                <div id="total-cart-price">0.00</div>
+                <div class="cart-icon">
+                    <a>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- @@@@@@@@@@@@@@@@@@@@ end of second section -->
+
+        <!-- @@@@@@@@@@@@@@@ start of third section @@@@@@@@@@@@  -->
+        <!-- third section contain all departments ,multilevel , mega menu , full width , contact , blog -->
+        <div class="header-section3 left-right-margin">
+            <!-- 1. menu  -->
+
+            <div class="second-menu">
+                <div>
+                    <a class="bars-icon">
+                        <div class="hamburgur"><i class="fa-solid fa-bars"></i></div>
+                        <p>All departments</p>
+                        <div class="sale">Sale</div>
+                    </a>
+                </div>
+                <div>
+                    <a>
+                        <p>multilevel</p>
+                    </a>
+
+                </div>
+
+                <div class="mega-menu">
+                    <a>
+                        <p>Mega Menu</p>
+                        <div class="new">New</div>
+                    </a>
+                </div>
+                <div>
+                    <a>
+                        <p>fullwidth</p>
+                    </a>
+                </div>
+            </div>
+
+            <!-- 2. contact and blog button  -->
+
+            <div class="contact-blog">
+                <div class="contact">
+                    <i class="fa-solid fa-phone-volume"></i>
+                    <p>1.800.555.6789</p>
+                </div>
+                <div class="blog">
+                    <i class="fa-solid fa-message"></i>
+                    <p>BLOG</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- @@@@@@@@@@@@@@@@@@@@@@ end of third section @@@@@@@@@@@@@@@@ -->
+    <!-- @@@@@@@@@@@@@@@@@@@@@ HEADER SECTION END @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <!-- navbar for mobile screen dispalyed after 1220px -->
+    <div class="mobile-navbar left-right-margin login-wishlist-container">
+
+        <a id="login-logout-click-mobile">
+            <i class="fa-solid fa-user"> </i>
+            <p id="login-logout-text-mobile">Login</p>
+        </a>
+        <a>
+            <i class="fa-solid fa-pencil"></i>
+            <p>Register</p>
+        </a>
+
+
+        <a class="language-container dropdown">
+            <p id="country-name">🇺🇸 English</p>
+            <i class="fa-solid fa-sort-down"></i>
+        </a>
+        <ul class="drop-down-menu">
+            <!-- <li><a>1</a></li>
+            <li><a>2</a></li>
+            <li><a>3</a></li> -->
+        </ul>
+
+        <a class="currency-container dropdown">
+            <p id="currency-name">$ Us Dollar</p>
+            <i class="fa-solid fa-sort-down"></i>
+        </a>
+        <ul class="drop-down-menu">
+            <!-- <li><a>1</a></li>
+            <li><a>2</a></li>
+            <li><a>3</a></li> -->
+        </ul>
+    </div>
+
+    <!-- mobile-bottom-navbar   -->
+    <div class="mobile-bottom-navbar left-right-margin">
+        <div class="brand-logo">
+            <h1><a href="index.html"> JOURNAL</a></h1>
+        </div>
+
+        <div class="menu-container">
+            <div class="dropdown">
+                <a class="left-menu-icon-container">
+                    <div class="hamburgur"><i class="fa-solid fa-bars"></i></div>
+                </a>
+            </div>
+
+            <div class="searchbar-container">
+                <a class="search-icon" id="mobileSearchClick">
+                    <div><i class="fa-solid fa-magnifying-glass"></i></div>
+                </a>
+            </div>
+
+            <div class="searchbar-container">
+
+                <a class="search-icon" href="shoppingCart.html">
+                    <div><i class="fa-solid fa-cart-shopping"></i></div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- @@@@@@@@@@@@@@ searching @@@@@@@@@@@@@@@@@@ -->
+    <div class="search-container margin">
+        <h1 id="search-name">Search - result</h1>
+        <hr style="margin-top: 10px;">
+        <div id="search-area">
+            <div id="left-container">
+                <div id="filter" style="justify-content: space-between;">
+                    <div class="heading" id="f">
+                        Filter
+                        <hr />
+                    </div>
+                    <div>
+                        <a id="clear"><i class="fa-solid fa-circle-xmark"></i> Clear</a>
+                    </div>
+                </div>
+
+                <div id="price" class="mt">
+                    <div class="title_panel d-flex js">
+                        <div class="heading">PRICE</div>
+                        <a onclick="minusfunc()">
+                            <h2>-</h2>
+                        </a>
+                    </div>
+                    <div class="range content mt">
+                        <div class="range-slider">
+                            <span class="range-se#fff;lected"></span>
+                        </div>
+                        <div class="range-input">
+                            <input type="range" class="min" min="0" max="1000" value="300" step="10">
+                            <input type="range" class="max" min="0" max="1000" value="700" step="10">
+                        </div>
+                        <div class="range-price">
+                            <label for="min">$</label>
+                            <input type="number" name="min" value="300">
+                            <label for="max">$</label>
+                            <input type="number" name="max" value="700">
+                        </div>
+                    </div>
+
+                </div>
+                <br>
+                <hr />
+                <div id="available" class="mt">
+                    <div class="title_panel d-flex js">
+                        <div class="heading">AVAILABILITY</div>
+                        <a onclick="minusfunc()">
+                            <h2>-</h2>
+                        </a>
+                    </div>
+                    <div class="content mt">
+                        <input type="checkbox"> In Stock<br>
+                        <input type="checkbox"> Out Of Stock
+                    </div>
+                </div>
+                <br>
+                <hr />
+
+                <div id="sub" class="mt">
+                    <div class="title_panel d-flex js">
+                        <div class="heading">SUBCATEGORIES</div>
+                        <a onclick="minusfunc()">
+                            <h2>-</h2>
+                        </a>
+                    </div>
+                    <div class="content mt">
+                        <p class="d-flex"><img src="electric.jpg" /> &nbsp; &nbsp;
+                        <h4>Electronics</h4>
+                        </p>
+                    </div>
+                </div>
+                <br>
+                <hr />
+
+                <div id="brand" class="mt">
+                    <div class="title_panel d-flex js">
+                        <div class="heading">BRANDS</div>
+                        <a onclick="minusfunc()">
+                            <h2>-</h2>
+                        </a>
+                    </div>
+                    <div class="content mt">
+                        <img src="apple.jpg" height="80px" style="border: 1px solid lightgray;"> &nbsp; &nbsp; <img
+                            src="canon.jpg" height="80px" style="border: 1px solid lightgray;">
+                    </div>
+                </div>
+                <br>
+                <hr />
+
+                <div id="select" class="mt">
+                    <div class="title_panel d-flex js">
+                        <div class="heading">SELECT</div>
+                        <a onclick="minusfunc()">
+                            <h2>-</h2>
+                        </a>
+                    </div>
+                    <div class="content mt">
+                        <input type="radio"> Red<br>
+                        <input type="radio"> Blue<br>
+                        <input type="radio"> Green<br>
+                        <input type="radio"> Yellow<br>
+                    </div>
+                </div>
+                <br>
+                <hr />
+
+                <div id="radio" class="mt">
+                    <div class="title_panel d-flex js">
+                        <div class="heading">RADIO</div>
+                        <a onclick="minusfunc()">
+                            <h2>-</h2>
+                        </a>
+                    </div>
+                    <div class="content mt">
+                        <input type="radio"> Small<br>
+                        <input type="radio"> Medium<br>
+                        <input type="radio"> Large<br>
+                    </div>
+                </div>
+                <br>
+                <hr />
+
+                <div id="color" class="mt">
+                    <div class="title_panel d-flex js">
+                        <div class="heading">COLORS</div>
+                        <a onclick="minusfunc()">
+                            <h2>-</h2>
+                        </a>
+                    </div>
+                    <div class="content mt d-flex">
+                        <div style="width: 50px; height: 50px; background-color: blueviolet;"></div> &nbsp; &nbsp;
+                        <div style="width: 50px; height: 50px; background-color: green;"></div>&nbsp; &nbsp;
+                        <div style="width: 50px; height: 50px; background-color: violet;"></div>&nbsp; &nbsp;
+                    </div>
+                </div>
+
+
+
+            </div>
+            <!-- search Result right page container  -->
+
+            <div id="searchResult" class="">
+                <div class="search-category-container">
+                    <div class="category-input-container d-flex">
+                        <input type="text" name="" id="search-value" />
+                        <select name="" id="">
+                            <option value="All Categories">All Categories</option>
+                            <option value="All ">ball</option>
+                            <option value="All ">shoes</option>
+                            <option value="All ">headphone</option>
+                        </select>
+                    </div>
+                    <div class="categories-checkbox-container">
+                        <p>
+                            <input type="checkbox" />&nbsp;&nbsp;Search in subcategories
+                        </p>
+                        <p>
+                            <input type="checkbox" />&nbsp;&nbsp;Search in product
+                            description
+                        </p>
+                    </div>
+                    <button id="searching">Search</button>
+
+                </div>
+                <div class="search-result-page-main-heading pt-20">
+                    <p>Products meeting the search criteria</p>
+                    <hr />
+                </div>
+                <hr class="m-tb-15" />
+                <div class="list-grid-container">
+                    <div class="list-gird-icon">
+                        <i class="fa-solid fa-table-cells" id="view-grid"></i>
+                        <i class="fa-solid fa-list" id="view-list"></i>
+
+                        <div class="compare-items-container">
+                            <div class="compare-icon" id="compare-items">
+                                <div><i class="fa-solid fa-arrow-right-arrow-left"></i></div>
+                            </div>
+                            <p class="product-compare-text">Product Compare</p>
+                        </div>
+                    </div>
+                    <div class="sort-by-show-container">
+                        <div class="sort-by-container">
+                            <div class="sort-by-text">Sort By:</div>
+                            <select name="" id="">
+                                <option value="">Default</option>
+                            </select>
+                        </div>
+                        <div class="show-container">
+                            <div class="sort-by-text">Show:</div>
+                            <select name="" id="">
+                                <option value="">10</option>
+                                <option value="">11</option>
+                                <option value="">12</option>
+                                <option value="">13</option>
+                                <option value="">14</option>
+                                <option value="">15</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+           
+                <hr class="m-tb-15" />
+                <div id="searchCard" class="d-flex"></div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Most-Viewed @@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <section class="most-viewed left-right-margin">
+        <div class="most-viewed-text">
+            <h3>MOST VIEWED</h3>
+            <hr />
+        </div>
+        <div class="most-viewed-container d-flex">
+
+            <div class=" container-one d-flex">
+
+                <div class="images">
+                    <img src="assets/image/glasses.jpg" height="80px" width="100px" />
+                </div>
+                <div class="name">
+                    <p>Oversized Sunglasses</p>
+                    <span class="price">
+                        <p>$397.00</p>
+                    </span>
+                    <br>
+                    <div class="most-viewed-icon"><i class="fa-solid fa-cart-shopping"></i> &nbsp; &nbsp;<i
+                            class="fa-regular fa-heart"></i> &nbsp;
+                        &nbsp;
+                        <i class="fa-solid fa-arrow-right-arrow-left border"></i>
+                    </div>
+
+                </div>
+            </div>
+            <div class="container-two d-flex">
+
+                <div class="images">
+                    <img src="assets/image/headphones.jpg" height="80px" width="100px" />
+                </div>
+                <div class="name">
+                    <p>Headphones</p>
+                    <span class="price">
+                        <p class="red-color">$999.00 &nbsp;<s style="color: black;">$3,299.00</s></p>
+                    </span>
+                    <br>
+                    <div class="most-viewed-icon"><i class="fa-solid fa-cart-shopping"></i> &nbsp; &nbsp;<i
+                            class="fa-regular fa-heart"></i> &nbsp;
+                        &nbsp;
+                        <i class="fa-solid fa-arrow-right-arrow-left border"></i>
+                    </div>
+
+                </div>
+            </div>
+            <div class="container-three d-flex">
+
+                <div class="images">
+                    <img src="assets/image/heels.jpg" height="80px" width="100px" />
+                </div>
+                <div class="name">
+                    <p>Women's Maria Pump</p>
+                    <span class="price">
+                        <p>$425.00</p>
+                    </span>
+                    <br>
+                    <div class="most-viewed-icon"><i class="fa-solid fa-cart-shopping"></i> &nbsp; &nbsp;<i
+                            class="fa-regular fa-heart"></i> &nbsp;
+                        &nbsp;
+                        <i class="fa-solid fa-arrow-right-arrow-left border"></i>
+                    </div>
+
+                </div>
+            </div>
+            <div class=" container-four d-flex">
+
+                <div class="images">
+                    <img src="assets/image/glasses.jpg" height="80px" width="100px" />
+                </div>
+                <div class="name">
+                    <p>Oversized Sunglasses </p>
+                    <span class="price">
+                        <p>$397.00</p>
+                    </span>
+                    <br>
+                    <div class="most-viewed-icon"><i class="fa-solid fa-cart-shopping"></i> &nbsp; &nbsp;<i
+                            class="fa-regular fa-heart"></i> &nbsp;
+                        &nbsp;
+                        <i class="fa-solid fa-arrow-right-arrow-left border"></i>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- *********699***********Social*************************** -->
+    <div class="social">
+        <div class=" social-container">
+            <a><i class="fa-brands fa-facebook"></i></a>
+            <a><i class="fa-brands fa-twitter"></i></a>
+            <a><i class="fa-brands fa-instagram"></i></a>
+            <a><i class="fa-brands fa-linkedin-in"></i></a>
+            <a><i class="fa-brands fa-youtube"></i></a>
+            <a><i class="fa-brands fa-skype"></i></a>
+            <a><i class="fa-brands fa-google-plus-g"></i></a>
+        </div>
+    </div>
+    <!-- @@@@@@@@@@@@@ footer @@@@@@@@@@@@@@ -->
+    <footer class="left-right-margin">
+        <div>
+            <h2>About Us</h2>
+            <hr />
+            <ul>
+                <li><a>About Us</a></li>
+                <li><a>Delivery</a></li>
+                <li><a>Privacy Policy</a></li>
+                <li><a>Terms & Condition</a></li>
+                <li><a>Custom Links</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h2>Customer Service</h2>
+            <hr />
+            <ul>
+                <li><a>Contact</a></li>
+                <li><a>Returns</a></li>
+                <li><a>Site Map</a></li>
+                <li><a>Brands</a></li>
+                <li><a>Unlimited Links</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h2>My Account</h2>
+            <hr />
+            <ul>
+                <li><a>My Account</a></li>
+                <li><a>Order History</a></li>
+                <li><a>Affiliats</a></li>
+                <li><a>Newslatter</a></li>
+                <li><a>Gifts Certificates</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h2>Newsletter</h2>
+            <hr />
+            <p class="para">
+                Stay up to date with news and promotions by signing up for promotions
+            </p>
+
+            <div class="input-container">
+                <input type="email" placeholder="Your email" />
+                <button><i class="fa-regular fa-envelope"></i> Send</button>
+            </div>
+            <p>
+                <input type="checkbox" name="" id="" /> I have read and agree to the
+                <a>Privacy Policy</a>
+            </p>
+        </div>
+    </footer>
+    <!-- @@@@@@@@@@@ Copyright @@@@@@@@@@@ -->
+    <div class="copyright left-right-margin ">
+        <p class="">Copyright © 2014,Your Store,All Rights Reserved
+        </p>
+
+        <ul class="payment">
+            <li><img src="assets/image/visa.png"></li>
+            <li><img src="assets/image/mastercard.png"></li>
+            <li><img src="assets/image/american-express.png"></li>
+            <li><img src="assets/image/discover.png"></li>
+            <li><img src="assets/image/paypal.png"></li>
+            <li><img src="assets/image/stripe.png"></li>
+        </ul>
+    </div>
+    </div>
+
+    <script>
+        const product_id = parseInt(sessionStorage.getItem("p_id"));
+        fetch("assets/first.json")
+            .then((response) => response.json())
+            .then((data) => {
+
+
+                let product = data.products.find(products => product_id === products.id)
+                console.log(product)
+
+                let product_searched = document.getElementById('searchCard');
+                product_searched.innerHTML += `<div class="search-card">
+     
+        <span class="seller">${product.badge}</span>
+       
+       <div class="search-image">
+           <img src=${product.image} width="170">
+       </div>
+        
+        
+        
+
+       <div class="search-details">
+           <h2 style="font-size:20px">${product.name}</h2>
+           <span>${product.modal}</span>
+       </div>
+        
+       <div class="search-pricing">
+           <h3>${product.price}</h3>
+       </div>
+       
+       
+        <div class="search-buttons">
+           <button>Add to Cart</button>
+           <button>Buy</button>
+       </div>
+    
+         
+   </div>`
+            })
+
+        let minus = document.querySelectorAll('h2')
+        let price_cnt = document.querySelectorAll('.content')
+
+        for (let i = 0; i < minus.length; i++) {
+            minus[i].addEventListener("click", () => {
+                minusfunc(i)
+            })
+        }
+
+        function minusfunc(i) {
+            if (price_cnt[i].style.display === "none") {
+                price_cnt[i].style.display = 'block'
+                minus[i].innerHTML = '-';
+            }
+            else {
+                price_cnt[i].style.display = 'none'
+                minus[i].innerHTML = '+';
+            }
+        };
+        let rangeMin = 100;
+        const range = document.querySelector(".range-selected");
+        const rangeInput = document.querySelectorAll(".range-input input");
+        const rangePrice = document.querySelectorAll(".range-price input");
+        rangeInput.forEach((input) => {
+            input.addEventListener("input", (e) => {
+                let minRange = parseInt(rangeInput[0].value);
+                let maxRange = parseInt(rangeInput[1].value);
+                if (maxRange - minRange < rangeMin) {
+                    if (e.target.className === "min") {
+                        rangeInput[0].value = maxRange - rangeMin;
+                    } else {
+                        rangeInput[1].value = minRange + rangeMin;
+                    }
+                } else {
+                    rangePrice[0].value = minRange;
+                    rangePrice[1].value = maxRange;
+                    range.style.left = (minRange / rangeInput[0].max) * 100 + "%";
+                    range.style.right = 100 - (maxRange / rangeInput[1].max) * 100 + "%";
+                }
+            });
+        });
+        rangePrice.forEach((input) => {
+            input.addEventListener("input", (e) => {
+                let minPrice = rangePrice[0].value;
+                let maxPrice = rangePrice[1].value;
+                if (maxPrice - minPrice >= rangeMin && maxPrice <= rangeInput[1].max) {
+                    if (e.target.className === "min") {
+                        rangeInput[0].value = minPrice;
+                        range.style.left = (minPrice / rangeInput[0].max) * 100 + "%";
+                    } else {
+                        rangeInput[1].value = maxPrice;
+                        range.style.right = 100 - (maxPrice / rangeInput[1].max) * 100 + "%";
+                    }
+                }
+            });
+        });
+
+  let enter_data = sessionStorage.getItem("pro_id")
+  let new_data = JSON.parse(enter_data);
+  console.log(new_data)
+  let product_searched = document.getElementById('searchCard');
+  for(let i = 0 ; i<new_data.length;i++){
+                product_searched.innerHTML += `<div class="search-card">
+     
+        <span class="seller">${new_data[i].badge}</span>
+       
+       <div class="search-image">
+           <img src=${new_data[i].image} width="170">
+       </div>
+        
+        
+        
+
+       <div class="search-details">
+           <h2 style="font-size:20px">${new_data[i].name}</h2>
+           <span>${new_data[i].modal}</span>
+       </div>
+        
+       <div class="search-pricing">
+           <h3>${new_data[i].price}</h3>
+       </div>
+       
+       
+        <div class="search-buttons">
+           <button>Add to Cart</button>
+           <button>Buy</button>
+       </div>
+    
+         
+   </div>`
+  }
+
+        
+    </script>
+</body>
+
+</html>

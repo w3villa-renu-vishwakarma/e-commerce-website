@@ -1,0 +1,66 @@
+{
+    "products":[
+     {   "id":1,
+         "name"  : "Headphones",
+         "model" : "Model 123",
+         "price" : "$999.00" ,
+         "cutprice" : "$999.00",
+         "brand" : "Boat" ,
+         "sale" : "-70%",
+         "badge" : "Sale 50% off",
+         "image" : "assets/image/headphones.png",
+         "hot" : true
+     },
+     {
+        "id":2,
+         "name"  : "Sandals",
+         "model" : "Model 234",
+         "price" : "$1.00" ,
+         "cutprice" : "$10.00",
+         "brand" : "Bata" ,
+         "sale" : "-90%",
+         "badge" : "Sale 50% off",
+         "image" : "assets/image/heels.jpg" ,
+         "hot" : true
+
+     },
+     { "id":3,
+         "name"  : "Camera",
+         "model" : "Model 345",
+         "price" : "$100.00" ,
+         "cutprice" : "$500.00",
+         "brand" : "Nikon" ,
+         "sale" : "-50%",
+         "badge" : "Sale 50% off",
+         "image" : "assets/image/camera.jpg",
+         "hot" : true
+
+     } ,
+     {
+        "id":4,
+         "name"  : "Shoes",
+         "model" : "Model 456",
+         "price" : "$800.00" ,
+         "cutprice" : "$1000.00",
+         "brand" : "Nike" ,
+         "sale" : "-30%",
+         "badge" : "Sale 50% off",
+         "image" : "assets/image/shoes.jpg",
+         "hot" : true
+
+     },
+     {  "id":5,
+         "name"  : "Watch",
+         "model" : "Model 567",
+         "price" : "$500.00" ,
+         "cutprice" : "$1500.00",
+         "brand" : "Sonata" ,
+         "sale" : "-75%",
+         "badge" : "Sale 50% off",
+         "image" : "assets/image/watches.jpg",
+         "hot" : true
+
+     }
+     
+    ]
+}
